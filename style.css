@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 12px;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 580px;
+    height: 264px;
+    padding: 24px 32px 32px;
+    background-color: #2A2634;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: -0.47px
+}
+
+section p {  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.games-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+.channel-list img {
+    border-radius: 50%;
+    width: 70px;
+}
+
+
